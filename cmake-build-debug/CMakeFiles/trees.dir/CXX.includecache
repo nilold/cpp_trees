@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nilo/Documents/cadence_test/trees/main.cpp
+iostream
+-
+node.h
+/home/nilo/Documents/cadence_test/trees/node.h
+queue
+-
+unordered_set
+-
+visitor.h
+/home/nilo/Documents/cadence_test/trees/visitor.h
+
+/home/nilo/Documents/cadence_test/trees/node.h
+vector
+-
+memory
+-
+cmath
+-
+
+/home/nilo/Documents/cadence_test/trees/visitor.h
+node.h
+/home/nilo/Documents/cadence_test/trees/node.h
+memory
+-
+unordered_map
+-
+list
+-
+
